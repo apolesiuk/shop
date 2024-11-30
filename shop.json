@@ -1,0 +1,86 @@
+[
+    {
+      "id": "1",
+      "title": "P04-002 16L",
+      "description": "Пуговицы для блузки",
+      "price": 0.027,
+      "img": "./photo/p0400216l.jpg"
+    },
+    {
+        "id": "2",
+        "title": "BTA-2018 28L",
+        "description": "Пуговицы на ножке",
+        "price": 0.099,
+        "img": "./photo/bta28l.jpg"
+    },
+    {
+        "id": "3",
+        "title": "BTA-2018 34L",
+        "description": "Пуговицы на ножке",
+        "price": 0.144,
+        "img": "./photo/bta34l.jpg"
+    },
+    {
+        "id": "4",
+        "title": "BTA-2018 40L",
+        "description": "Пуговицы на ножке",
+        "price": 0.180,
+        "img": "./photo/bta40l.jpg"
+    },
+    {
+        "id": "5",
+        "title": "P04-008 16L",
+        "description": "Пуговицы для блузки",
+        "price": 0.042,
+        "img": "./photo/p0400816l.jpg"
+    },
+    {
+        "id": "6",
+        "title": "PTA-2001 34L",
+        "description": "Пуговицы на ножке",
+        "price": 0.129,
+        "img": "./photo/pta34l.jpg"
+    },
+    {
+        "id": "7",
+        "title": "PTA-2001 40L",
+        "description": "Пуговицы на ножке",
+        "price": 0.150,
+        "img": "./photo/pta40l.jpg"
+    },
+    {
+        "id": "8",
+        "title": "PTA-2001 48L",
+        "description": "Пуговицы на ножке",
+        "price": 0.162,
+        "img": "./photo/pta48l.jpg"
+    },
+    {
+        "id": "9",
+        "title": "PTA-2019 26L",
+        "description": "Пуговицы на ножке",
+        "price": 0.105,
+        "img": "./photo/pta1926l.jpg"
+    },
+    {
+        "id": "10",
+        "title": "PTA-2019 40L",
+        "description": "Пуговицы на ножке",
+        "price": 0.201,
+        "img": "./photo/pta1940l.jpg"
+    },
+    {
+        "id": "11",
+        "title": "BTA-2014 34L",
+        "description": "Пуговицы на ножке",
+        "price": 0.117,
+        "img": "./photo/bta1434l.jpg"
+    },
+    {
+        "id": "12",
+        "title": "BTA-2014 44L",
+        "description": "Пуговицы на ножке",
+        "price": 0.180,
+        "img": "./photo/bta1444l.jpg"
+    }
+  ]

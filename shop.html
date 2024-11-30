@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Магазин</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+        </header>
+
+        <ul class="nav nav-tabs">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" role="button" aria-expanded="false">Главная</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="./index.html#oform">Как оформить заказ</a></li>
+                    <li><a class="dropdown-item" href="./index.html#dost">Доставка</a></li>
+                    <li><a class="dropdown-item" href="./index.html#linmm">Перевод размеров</a></li>
+                </ul>
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./shop.html">Магазин</a>
+            </li>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./form.html">Форма</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://portnoj.by/" target="_blank"><img id=png src='./net.png' width="30px"/></a>
+            </li>
+        </ul>
+
+        <div class="card-body">
+            <h4 class='card-title text-center'>Магазин</h5>
+             <input type="radio" id="price" name="sort"  onchange="sort()"> Цена  </input>
+             <input type="radio" id="title" name="sort"  checked onchange="sort()" > Название </input>
+             <input type="text" id="search" name="search"  onchange="search()"> Поиск  </input>
+             <ul class="d-flex flex-row justify-content-around flex-wrap bg-light" id="node_for_insert">
+            </ul>
+        </div>
+
+        <footer></footer>
+
+    </body>
+    <script src="./shop.js"></script>
+</html>
