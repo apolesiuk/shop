@@ -45,6 +45,7 @@ table{
 
 th {
     padding: 20px 30px;
+    transition: all 0.5s linear;
 }
 
 th:hover{
